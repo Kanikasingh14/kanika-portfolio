@@ -22,7 +22,7 @@ export function Footer() {
             transition={{ duration: 0.6 }}
             className="text-center md:text-left"
           >
-            <h3 className="text-2xl font-bold neon-text mb-2">Mukul Designer/Developer</h3>
+            <h3 className="text-2xl font-bold neon-text mb-2">Kanika Designer/Developer</h3>
             <p className="text-muted-foreground">Building the future, one line of code at a time.</p>
           </motion.div>
 
@@ -53,7 +53,7 @@ export function Footer() {
           <p className="text-muted-foreground flex items-center justify-center gap-2">
             Made with <Heart className="w-4 h-4 text-primary neon-glow" /> using Next.js & Framer Motion
           </p>
-          <p className="text-sm text-muted-foreground mt-2">© 2024 Mukul Designer/Developer. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground mt-2">© 2024 Kanika Designer/Developer. All rights reserved.</p>
         </motion.div>
       </div>
     </footer>

@@ -13,9 +13,9 @@ export const AboutSection = memo(function AboutSection() {
   const timelineData = useMemo(
     () => [
        {
-        year: "2025",
+        year: "2024",
         title: "UI/UX Designer",
-        company: "FutureDesk Services",
+        company: "Freelancer",
         description: "Designed user-centered digital experiences and prototyped innovative interface solutions.",
         icon: <Lightbulb className="w-6 h-6" aria-hidden="true" />,
         skills: ["Figma", "Adobe XD", "Canva", "SaaS App", "Prototyping", "User Research"],
@@ -121,7 +121,7 @@ export const AboutSection = memo(function AboutSection() {
                     <Zap className="w-8 h-8 text-primary" aria-hidden="true" />
                   </div>
                 </div>
-                <h3 className="text-3xl font-bold neon-text mb-2">30+</h3>
+                <h3 className="text-3xl font-bold neon-text mb-2">20+</h3>
                 <p className="text-muted-foreground">Projects Completed</p>
               </CardContent>
             </Card>
@@ -135,7 +135,7 @@ export const AboutSection = memo(function AboutSection() {
                     <Users className="w-8 h-8 text-secondary" aria-hidden="true" />
                   </div>
                 </div>
-                <h3 className="text-3xl font-bold neon-text mb-2">20+</h3>
+                <h3 className="text-3xl font-bold neon-text mb-2">10+</h3>
                 <p className="text-muted-foreground">Happy Clients</p>
               </CardContent>
             </Card>
@@ -149,7 +149,7 @@ export const AboutSection = memo(function AboutSection() {
                     <Calendar className="w-8 h-8 text-accent" aria-hidden="true" />
                   </div>
                 </div>
-                <h3 className="text-3xl font-bold neon-text mb-2">2+</h3>
+                <h3 className="text-3xl font-bold neon-text mb-2">1+</h3>
                 <p className="text-muted-foreground">Years Experience</p>
               </CardContent>
             </Card>

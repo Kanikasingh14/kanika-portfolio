@@ -86,7 +86,7 @@ export const HeroSection = memo(function HeroSection() {
             </motion.div>
 
             <motion.h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance" variants={itemVariants}>
-              <span className="neon-text">Mukul Parmar</span> <span className="text-foreground">Designer</span>
+              <span className="neon-text">Kanika Singh</span> <span className="text-foreground">Designer</span>
             </motion.h1>
 
             <motion.div className="mb-8 text-xl md:text-2xl text-muted-foreground" variants={itemVariants}>

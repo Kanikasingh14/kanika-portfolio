@@ -114,14 +114,14 @@ export function ContactSection() {
       {
         icon: <Mail className="w-6 h-6" />,
         title: "Email",
-        value: "mukulparmar470@gmail.com",
-        link: "mailto:mukulparmar470@gmail.com",
+        value: "keetusingh867@gmail.com",
+        link: "mailto:keetusingh867@gmail.com",
       },
       {
         icon: <Phone className="w-6 h-6" />,
         title: "Phone",
-        value: "+91 7668009623",
-        link: "tel:+917668009623",
+        value: "+91 9267945045",
+        link: "tel:+919267945045",
       },
       {
         icon: <MapPin className="w-6 h-6" />,

@@ -14,49 +14,6 @@ export const ProjectsSection = memo(function ProjectsSection() {
   const projects = useMemo(
     () => [
       {
-        id: "Meshwari Visuals",
-        title: "Maheshwari Visuals – Music Distribution SaaS Based Web App",
-        description:
-          "Maheshwari Visuals is a SaaS-based web app that connects artists and singers with platforms like Spotify and Apple Music, making music distribution seamless and efficient.",
-        
-          image: "/maheshwari.png",
-        tech: ["Figma", "Adobe XD", "Lovable"],
-        category: "Web Application",
-        links: {
-          demo: "https://www.figma.com/design/P5entoo6ou7kggGqZbvcMs/Maheshwari-Fresh?node-id=0-1&t=zgJ5JLNvwo08UgUX-1",
-          github: "#",
-          live: "https://www.maheshwarivisuals.com/",
-        },
-      },
-      {
-        id: "TropoTrips",
-        title: "TropoTrips – Your Gateway to Unique Stays",
-        description: "A SaaS-based travel platform like Airbnb that connects travelers with unique stays, rentals, and experiences worldwide.",
-        image: "/tropotrips.png",
-        tech: ["Figma", "Adobe XD", "Lovable"],
-        category: "Web Application",
-        links: {
-          demo: "https://www.figma.com/design/YGAGn8AVTZML3PBBSRgAof/TropoTrips-Fresh?node-id=0-1&t=9zisRODQn0Snzolx-1",
-          github: "#",
-          live: "https://tropotrips.com/",
-        },
-      },
-      {
-        id: "Tiffix",
-        title: "Tiffix – Food Delivery SaaS Based App",
-        description:
-          "A SaaS-based platform that connects home chefs, vendors, and customers for subscription-based meal delivery.",
-        image: "/tiffix.png",
-        tech: ["Figma", "Adobe XD", "Lovable"],
-        category: "Mobile App",
-        links: {
-          demo: "https://www.figma.com/design/5D3ZjX2I9KWoZnGkazfjCZ/Tiffix-Fresh?node-id=0-1&t=YxR87Z82mulIw4D2-1",
-          github: "#",
-          live: "https://tiffix.in/",
-        },
-      },
-      
-      {
         id: "Rabt Naturals",
         title: "Rabt Naturals – Beauty & Wellness E-Commerce",
         description:
@@ -65,36 +22,78 @@ export const ProjectsSection = memo(function ProjectsSection() {
         tech: ["Figma", "Adobe XD", "Lovable"],
         category: "E-commerce web app",
         links: {
-          demo: "https://www.figma.com/design/w7Zy2zyFefd35xv57UeP5z/Rabt-E-comm?node-id=0-1&t=UBem83OyVv1muRaA-1",
+          demo: "https://www.figma.com/design/mse6ZUTfNEyqsh9mOLfQKm/Rabt-e-comm?node-id=0-1&t=H09RSWv3PZEplDWm-1",
           github: "#",
           live: "https://rabtnaturals.com/",
         },
       },
       {
-        id: "snek",
-        title: "Snek – Modern Dating Mobile App",
-        description: "A SaaS-based mobile dating app that helps people connect through smart matchmaking, real-time chat, and an engaging user experience.",
-        image: "/snek.png",
-        tech: ["Figma", "Adobe XD"],
-        category: "mobile App",
+        id: "Domestree",
+        title: "Domestree – Smart Service Provider App",
+        description: "A mobile application that connects users with trusted home service providers, offering quick bookings, seamless navigation, and a user-friendly interface.",
+        image: "/domestree.png",
+        tech: ["Figma", "Adobe XD", "Lovable"],
+        category: "Mobile Application",
         links: {
-          demo: "https://www.figma.com/design/FHx5cFwDkMWnJizaDSWuTE/Snek?node-id=0-1&t=cLh1WDq7sF51cxmj-1",
+          demo: "https://www.figma.com/design/73tQ4Yr8E9EyY1affOvZpB/Domestree?node-id=0-1&t=Zea1MGQw4qhkrB3Z-1",
           github: "#",
           live: "#",
         },
       },
       {
-        id: "creatordesk",
-        title: "CreatorDesk – Instagram Automation Platform",
+        id: "Goupboard",
+        title: "Goupboard – Interactive Learning App",
         description:
-          "A SaaS-based web app that automates Instagram growth with smart scheduling, analytics, and engagement tools for creators and brands.",
-        image: "/creatordesk.png",
+          "An educational mobile app designed to make learning easier and more engaging, offering organized study resources, smooth navigation, and a student-friendly interface.",
+        image: "/goupboard.png",
         tech: ["Figma", "Adobe XD", "Lovable"],
-        category: "Automation Web App",
+        category: "Mobile Application",
         links: {
-          demo: "https://www.figma.com/design/AFSX9iyCRBjh7e0afEeGN5/CreatorDesk-Edits?node-id=0-1&t=qGX4pbMx1npQXQqZ-1",
+          demo: "https://www.figma.com/design/oAcoBBUqkB2LRhaBOgfp9H/Goupboard?t=H09RSWv3PZEplDWm-1",
           github: "#",
-          live: "https://creatordesks.com/",
+          live: "#",
+        },
+      },
+      
+      {
+        id: "Skin Deep",
+        title: "Skin Deep – Spa & Wellness Website",
+        description:
+          "A modern spa service website that highlights beauty and wellness treatments with an elegant design, easy booking system, and smooth user experience.",
+        image: "/skindeep.png",
+        tech: ["Figma", "Adobe XD"],
+        category: "Website",
+        links: {
+          demo: "https://www.figma.com/design/H37kJyuqBV9JOdX8bkJ7KV/Skindeep?t=H09RSWv3PZEplDWm-1",
+          github: "#",
+          live: "#",
+        },
+      },
+      {
+        id: "Mood Asana",
+        title: "Mood Asana – Yoga & Mindfulness App",
+        description: "A yoga mobile application that blends fitness with mental wellness, featuring guided sessions, mood-based workouts, and a calming user interface for a holistic lifestyle.",
+        image: "/moodasana.png",
+        tech: ["Figma", "Adobe XD"],
+        category: "mobile App",
+        links: {
+          demo: "https://www.figma.com/design/XmvOgjHPQuJzACXqlt6dgN/Mood-Asana?node-id=0-1&t=H09RSWv3PZEplDWm-1",
+          github: "#",
+          live: "#",
+        },
+      },
+      {
+        id: "Pramod Snacks",
+        title: "Pramod Snacks – Sweet & Snack Shopping Website",
+        description:
+          "An e-commerce website for sweets and snacks, designed with a clean interface, easy product browsing, and a smooth checkout experience for delightful online shopping.",
+        image: "/pramodsnacks.png",
+        tech: ["Figma", "Adobe XD"],
+        category: "Website",
+        links: {
+          demo: "https://www.figma.com/design/9PBmwrqXmraZ9Py4uWtAkD/Pramod-Snacks?t=H09RSWv3PZEplDWm-1",
+          github: "#",
+          live: "#",
         },
       },
     ],

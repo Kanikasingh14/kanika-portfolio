@@ -46,7 +46,7 @@ export function SkillsSection() {
       icon: <Code2 className="w-6 h-6" />,
       color: "primary",
       skills: [
-        { name: "React/Next.js", level: 75, icon: "⚛️" },
+        { name: "JAVA", level: 75, icon: "⚛️" },
         { name: "Flutter", level: 80, icon: "📘" },
         { name: "HTML", level: 95, icon: "🎨" },
         { name: "CSS", level: 95, icon: "💚" },
